@@ -1,6 +1,11 @@
 import React, { Component } from "react";
 import SimpleImageSlider from "react-simple-image-slider";
 
+import home from '../image/home.png';
+import myplant from '../image/myplant.png';
+import scan from '../image/scan.png';
+import chatroom from '../image/chatroom.png'
+
 class ImageSlider extends Component {
   constructor() {
         super();
@@ -16,10 +21,10 @@ class ImageSlider extends Component {
     }
   render(){
       const images = [
-            { url: "/src/image/home.png" },
-            { url: "/src/image/myplant.png" },
-            { url: "/src/image/scan.png" },
-            { url: "/src/image/chatroom.png" },
+            { url: home},
+            { url: myplant },
+            { url: scan },
+            { url: chatroom },
         ];
 
   return(

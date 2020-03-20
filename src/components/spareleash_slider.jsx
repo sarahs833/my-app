@@ -1,6 +1,12 @@
 import React, { Component } from "react";
 import SimpleImageSlider from "react-simple-image-slider";
 
+import peet from '../image/peet_coffee.png';
+import meet from '../image/meet_greet.png';
+import greet from '../image/meet&greet.png';
+import sitter from '../image/sitter.png';
+import admin from '../image/admin_page.png'
+
 class SpareLeashSlider extends Component {
   constructor() {
         super();
@@ -16,11 +22,11 @@ class SpareLeashSlider extends Component {
     }
   render(){
       const images = [
-            { url: "/src/image/peet_coffee.png" },
-            { url: "/src/image/meet_greet.png" },
-            { url: "/src/image/meet&greet.png" },
-            { url: "/src/image/sitter.png" },
-            { url: "/src/image/admin_page.png" },
+            { url: peet },
+            { url: meet },
+            { url: greet },
+            { url: sitter },
+            { url: admin },
         ];
 
   return(

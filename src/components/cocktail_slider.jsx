@@ -1,7 +1,10 @@
 import React, { Component } from "react";
 import SimpleImageSlider from "react-simple-image-slider";
 
-import home from '../image/home_cocktail.png'
+import home from '../image/home_cocktail.png';
+import cocktail from '../image/add_cocktail.png';
+import cocktails from '../image/cocktail_show.png';
+import formcocktail from '../image/form.png'
 
 class CocktailSlider extends Component {
   constructor() {
@@ -18,10 +21,10 @@ class CocktailSlider extends Component {
     }
   render(){
       const images = [
-            { url: "../image/home_cocktail.png" },
-            { url: "/src/image/add_cocktail.png" },
-            { url: "/src/image/cocktail_show.png" },
-            { url: "/src/image/form.png" },
+            { url: home },
+            { url: cocktail },
+            { url: cocktails },
+            { url: formcocktail },
         ];
 
   return(
