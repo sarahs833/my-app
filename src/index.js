@@ -4,7 +4,7 @@ import { Provider } from 'react-redux';
 import { createStore, combineReducers, applyMiddleware } from 'redux';
 import reduxPromise from 'redux-promise';
 import logger from 'redux-logger';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { HashRouter, Route, Switch } from 'react-router-dom';
 import { createHistory as history } from 'history';
 
 import './App.scss';
@@ -21,7 +21,7 @@ const store = {};
 
 // render an instance of the component in the DOM
 ReactDOM.render(
-    <Router>
+    <HashRouter basename="/">
       <div>
         <Navbar />
           <Switch>
@@ -33,6 +33,6 @@ ReactDOM.render(
             <Route path="/project/Cocktail" component={Cocktail} />
           </Switch>
       </div>
-    </Router>,
+    </HashRouter>,
   document.getElementById('root')
 );
