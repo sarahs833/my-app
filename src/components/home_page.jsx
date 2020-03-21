@@ -44,7 +44,7 @@ handleDisplay = () => {
               </div>
               <div className="sociallink">
                 <a href="https://github.com/sarahs833" >GITHUB</a>
-                <a href="#wechat" onClick={this.handleDisplay}>WECHAT</a>
+                <a href="/#/" onClick={this.handleDisplay}>WECHAT</a>
                 <a href="mailto:sarahwang47@gmail.com" >EMAIL</a>
                 <a href="" >INTERGRAM</a>
               </div>
