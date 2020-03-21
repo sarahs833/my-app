@@ -30,7 +30,7 @@ class Cocktail extends Component {
           </div>
         </div>
 
-        <div className="flex flex-column justify-center items-center tc ph6-ns ph3 mb6">
+        <div className="flex flex-column justify-center items-center tc ph6-ns ph3 mb6 custom-butler">
           <div className="w-40-ns w-80 customize-orange-bg mb5">
             <h2>Cocktail Butler Presentation</h2>
           </div>

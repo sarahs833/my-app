@@ -642,12 +642,35 @@ animation-delay:2s;
   .navbar {
     padding-right:30px
   }
+  .textbio {
+  padding-right:0px;
+  padding-left:0px
+  }
  .textbio > h2 {
-  font-size:18px;
+  font-size:15px;
+ }
+ .mypic {
+  height:250px;
+  width:250px
+ }
+ .banner > h2 {
+  top:160px;
+  font-size:20px
+ }
+  @keyframes fadeIn {
+  0% {top:50px;opacity:0;transform:scale(1);}
+  100% {top:150px;opacity:1;transform:scale(1.2);}
+  }
+
+ .contacttext > p {
+  font-size:15px
  }
  .sociallink {
   display:flex;
   flex-direction:column;
+ }
+ .sociallink > a {
+  font-size:15px
  }
 }
 .plantopia-container {
@@ -898,5 +921,113 @@ color:#FF8F71
   }
   .sl-slider > h2 {
     font-size:25px
+  }
+}
+
+@media only screen and (max-width:320px) {
+  .navlink > a {
+    margin:5px
+  }
+  .curious {
+    transform:translate(100px,180px)
+  }
+  .fastfood {
+    transform: translate(10px, 280px);
+  }
+  .pink-underline {
+    font-size:20px
+  }
+  .dog-bg {
+    height:65vh
+  }
+  .custom-spareleash-bg {
+    transform:translate(-25px,161px);
+    height:25vh;
+  }
+  .translate-box1 {
+    transform: translate(-70px, -600px);
+  }
+  .translate-box2 {
+    transform: translate(22px, -566px);
+  }
+  .small-text > h4 {
+    font-size:12px
+  }
+  .header > h2 {
+    font-size:18px
+  }
+  .sl-slider > h2 {
+    font-size: 20px;
+  }
+  .custom-cocktail-bg {
+    height:65vh
+  }
+  .customize-gray-bg {
+    width:90vw
+  }
+  .customize-text-2 {
+    transform: translate(10px,-325px)
+  }
+  .custom-butler{
+    transform: translate(0px, 60px);
+  }
+  .customize-orange-bg {
+    border-radius:0px
+  }
+  .customize-orange-bg > h2 {
+    margin-top:0px
+  }
+  .custom-code-section {
+    margin-top:0px
+  }
+  .custom-code-section > h2 {
+    margin-top:0px;
+    font-size: 18px;
+    margin-bottom:5px
+  }
+  .custom-red {
+    font-size:15px;
+    margin-top:10px
+  }
+  .cocktail-icon {
+    width: 30px;
+    height: 30px;
+  }
+  .cocktail-paragraph {
+    font-size: 12px;
+  }
+  .pink {
+    font-size:15px
+  }
+  .sl-slider {
+    margin-top:0px
+  }
+  .mypic {
+    height:150px;
+    width:150px
+  }
+  .textbio {
+    padding-left:0px;
+    padding-right:0px
+  }
+  .textbio > h2 {
+    font-size:15px
+  }
+  .contacttext > p {
+    font-size:15px
+  }
+  .sociallink > a {
+    font-size:15px
+  }
+  .banner > h2 {
+    top:150px;
+    font-size: 18px;
+  }
+  .banner > h2:nth-child(2){
+  margin-top:10px;
+  }
+  @keyframes fadeIn {
+  0% {top:50px;opacity:0;transform:scale(1);}
+  100% {top:150px;opacity:1;transform:scale(1.2);}
   }
 }
