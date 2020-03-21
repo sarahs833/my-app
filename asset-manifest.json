@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "./static/css/main.3436fe74.chunk.css",
-    "main.js": "./static/js/main.10175224.chunk.js",
-    "main.js.map": "./static/js/main.10175224.chunk.js.map",
+    "main.js": "./static/js/main.4e0eba18.chunk.js",
+    "main.js.map": "./static/js/main.4e0eba18.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.1451e3c5.js",
     "runtime-main.js.map": "./static/js/runtime-main.1451e3c5.js.map",
     "static/js/2.0e7fccfc.chunk.js": "./static/js/2.0e7fccfc.chunk.js",
     "static/js/2.0e7fccfc.chunk.js.map": "./static/js/2.0e7fccfc.chunk.js.map",
     "index.html": "./index.html",
-    "precache-manifest.d5060fd0cafa09ef31a0e35214e177d6.js": "./precache-manifest.d5060fd0cafa09ef31a0e35214e177d6.js",
+    "precache-manifest.5cecf1a3423fe580cdfe429f6ed19957.js": "./precache-manifest.5cecf1a3423fe580cdfe429f6ed19957.js",
     "service-worker.js": "./service-worker.js",
     "static/css/main.3436fe74.chunk.css.map": "./static/css/main.3436fe74.chunk.css.map",
     "static/js/2.0e7fccfc.chunk.js.LICENSE.txt": "./static/js/2.0e7fccfc.chunk.js.LICENSE.txt",
@@ -21,7 +21,7 @@
     "static/media/fastfood.svg": "./static/media/fastfood.fed9f17d.svg",
     "static/media/foodindustry.svg": "./static/media/foodindustry.3ab2ea23.svg",
     "static/media/form.png": "./static/media/form.33b2c749.png",
-    "static/media/france.svg": "./static/media/france.08283358.svg",
+    "static/media/france.svg": "./static/media/france.91b69fc2.svg",
     "static/media/group.svg": "./static/media/group.2338e404.svg",
     "static/media/home.png": "./static/media/home.6209af66.png",
     "static/media/home_cocktail.png": "./static/media/home_cocktail.1748d961.png",
@@ -37,6 +37,6 @@
     "static/js/runtime-main.1451e3c5.js",
     "static/js/2.0e7fccfc.chunk.js",
     "static/css/main.3436fe74.chunk.css",
-    "static/js/main.10175224.chunk.js"
+    "static/js/main.4e0eba18.chunk.js"
   ]
 }
