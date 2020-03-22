@@ -41,7 +41,7 @@ const scrollY = e.currentTarget.scrollY;
           <div className="navlink">
             <Link className="pagelink" to="/" >Home</Link>
             <Link className="pagelink" to="/about">About</Link>
-            <Link className="pagelink" to="/project" >Project</Link>
+            <Link className="pagelink" to="/project" >Projects</Link>
           </div>
         </div>
       </div>

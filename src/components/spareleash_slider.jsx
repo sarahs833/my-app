@@ -22,10 +22,10 @@ class SpareLeashSlider extends Component {
     }
   render(){
       const images = [
-            { url: peet },
             { url: meet },
             { url: greet },
             { url: sitter },
+            {url: peet },
             { url: admin },
         ];
 

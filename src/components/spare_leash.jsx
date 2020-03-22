@@ -25,8 +25,8 @@ handleToggle =()=> {
            <div className="custom-spareleash-bg vh-25 w-50-ns w-80 pr4 white o-20-ns o-10">
            </div>
            <div className="white custom-position w-50-m mr6">
-            <h2 className="mb4-ns mb3 f2-m">SpareLeash.</h2>
-            <h4>An increadible platform that links pets owner and pets sitters.</h4>
+            <h2 className="mb4-ns mb3 f2-m">Spare Leash.</h2>
+            <h4>An incredible platform that links pet owner and pet sitters.</h4>
            </div>
           </div>
         </div>
@@ -83,7 +83,7 @@ handleToggle =()=> {
             </div>
             <div className="tl">
               <h3 className="custom-header pink">Front-end:</h3>
-              <h4 className="custom-paragraph">Creation of 5 pages from scratch.Fixed some bugs related with js code.</h4>
+              <h4 className="custom-paragraph">Creation of 5 pages from scratch. Fixed some bugs related with js code.</h4>
             </div>
           </div>
         </div>

@@ -35,8 +35,8 @@ handleDisplay = () => {
           <div className="whitediv">
              <div className="mypic"></div>
              <div className="textbio">
-              <h2>HI.I'M SARAH ,CHINESE MADE IN FRANCE.</h2>
-              <h2>MY PLAYGROUND: RUBY ON RAILS , JAVASCRIPT , CSS & HTML, REACT , NODE.JS, WECHAT MINI-PROGRAM.</h2>
+              <h2>HI.I'M SARAH, CHINESE MADE IN FRANCE.</h2>
+              <h2>MY PLAYGROUND: RUBY ON RAILS, JAVASCRIPT, CSS & HTML, REACT, NODE.JS, WECHAT MINI-PROGRAM.</h2>
              </div>
              <div >
               <div className="contacttext">
@@ -46,7 +46,7 @@ handleDisplay = () => {
                 <a href="https://github.com/sarahs833" >GITHUB</a>
                 <a href="/#/" onClick={this.handleDisplay}>WECHAT</a>
                 <a href="mailto:sarahwang47@gmail.com" >EMAIL</a>
-                <a href="" >INTERGRAM</a>
+                <a href="" >INSTAGRAM</a>
               </div>
               <div>
               <img id="wechat" className={this.state.className} src={young} />
