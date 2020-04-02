@@ -4,10 +4,12 @@ import { Link } from "react-router-dom";
 import Plantopia from './plantopia';
 import SpareLeash from './spare_leash';
 import Cocktail from './cocktail';
+import Others from './others';
 
 class Body extends Component {
   render(){
     return(
+     <div>
       <div className="body-container">
         <div className="left">
           <div className="image">
@@ -27,9 +29,13 @@ class Body extends Component {
             <h2 className="whitesmall">Your private bar tender</h2>
             <Link className="small-botton" to="/project/Cocktail"> view more </Link>
           </div>
-
         </div>
       </div>
+        <div className="other-container">
+          <h1 className="bold white">MORE PROJECT</h1>
+          <Link className="big-button mt3" to='/project/others'> view more </Link>
+        </div>
+    </div>
     )
   }
 }

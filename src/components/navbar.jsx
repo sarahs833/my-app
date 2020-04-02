@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 class Navbar extends Component {
  constructor(props) {
-    super(props)
+    super(props);
     this.state = {
       mouse:false,
       className:'mb5',

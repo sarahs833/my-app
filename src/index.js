@@ -15,6 +15,7 @@ import Plantopia from './components/plantopia';
 import Cocktail from './components/cocktail';
 import SpareLeash from './components/spare_leash';
 import Navbar from './components/navbar';
+import Others from './components/others';
 
 const store = {};
 
@@ -31,6 +32,7 @@ ReactDOM.render(
             <Route path="/project/plantopia" component={Plantopia} />
             <Route path="/project/SpareLeash" component={SpareLeash} />
             <Route path="/project/Cocktail" component={Cocktail} />
+            <Route path="/project/others" component={Others} />
           </Switch>
       </div>
     </HashRouter>,

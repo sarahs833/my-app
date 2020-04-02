@@ -16,6 +16,9 @@ class Plantopia extends Component {
 componentDidMount(){
   window.addEventListener('scroll',this.handleText);
 }
+componentWillUnmount(){
+  window.removeEventListener('scroll',this.handleText)
+}
 handleText = (e) => {
   if(e.currentTarget.scrollY > 260) {
   this.setState({className:"mb5 appear"});

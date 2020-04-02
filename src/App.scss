@@ -46,6 +46,11 @@ body {
   transform:translate(270px,430px)
 }
 
+.bg-black {
+  justify-content:space-evenly;
+}
+
+
 @media only screen and (max-width:768px) {
   .passion-text {
     transform:translate(0px,50px)
@@ -209,6 +214,92 @@ height:100vh;
   text-decoration:none
 }
 
+.other-container {
+  width:100vw;
+  height:80vh;
+  background-image:url('./image/more.jpg');
+  background-position: center;
+  background-size: cover;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  flex-direction:column;
+  padding-top:150px
+}
+
+.big-button {
+  border: 1px solid white;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-decoration: none;
+    color: #40e0d0;
+    font-size: 20px;
+}
+.big-button:hover {
+  background-color: #40e0d0;
+  border: none;
+  color:white;
+  text-decoration:none
+}
+.banner-other {
+  background-image:url('./image/love.jpg');
+  width: 100vw;
+  height: 80vh;
+  background-size: cover;
+  background-position: 0px -200px;
+}
+.bg-black {
+  width:100vw;
+  height:100vh
+
+}
+.trade-image {
+  background-image:url('./image/trade.jpg');
+  width: 30vw;
+  height: 80vh;
+  background-size: cover;
+  background-position: center;
+  transform: translate(10px, 260px);
+  animation:up;
+  animation-duration:5s;
+  animation-fill-mode:forwards
+}
+
+@keyframes up{
+  0% {transform:translate(10px,260px)}
+  100%{transform:translate(10px,120px)}
+}
+
+.other-text {
+  transform: translate(-75px, -30px);
+}
+
+.other-text-2 {
+  transform: translate(215px, -50px);
+}
+
+.btn-other {
+  text-decoration: none;
+    color: white;
+    border: 1px #de7119 solid;
+    width: 150px;
+    height: 50px;
+    padding-left: 57px;
+    padding-top: 13px;
+    transform: translate(80px, 40px);
+}
+
+.btn-other:hover {
+  text-decoration:none;
+  border-color:#de7119;
+  color:white;
+  background:#de7119
+}
+.height-50 {
+  height:50vh
+}
 @media only screen and (max-width:600px) {
   .small-font {
     font-size:9px
@@ -881,6 +972,32 @@ color:#FF8F71
   .sl-slider {
     transform:translateY(-160px)
   }
+  .banner-other {
+    background-image: url(/static/media/love.da4c52a4.jpg);
+    width: 100vw;
+    height: 50vh;
+    background-size: cover;
+    background-position: 0px -4px;
+ }
+ .trade-image {
+  width:45vw;
+  height:50vh
+ }
+ .other-text {
+  transform: translate(0px, -192px);
+}
+ .other-text-2 {
+  transform: translate(105px, -205px)
+ }
+ .btn-other {
+  transform: translate(113px, -175px);
+ }
+ .other-text-3 {
+  transform:translate(0px, -170px)
+ }
+ .height-50 {
+  height:30vh
+ }
 }
 
 @media only screen and (max-width:600px) {
@@ -921,6 +1038,24 @@ color:#FF8F71
   }
   .sl-slider > h2 {
     font-size:25px
+  }
+  .banner-other {
+    background-size:contain;
+    background-position:0px
+
+  }
+  .trade-image {
+    width:100vw;
+    opacity:0.8
+  }
+  .btn-other {
+    background:#de7119
+  }
+  .height-50 {
+    height:0vh
+  }
+  .padding-20 {
+    padding-left:20px
   }
 }
 
