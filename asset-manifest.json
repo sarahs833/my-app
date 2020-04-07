@@ -1,28 +1,23 @@
 {
   "files": {
-    "main.css": "./static/css/main.f275f783.chunk.css",
-    "main.js": "./static/js/main.3e36949a.chunk.js",
-    "main.js.map": "./static/js/main.3e36949a.chunk.js.map",
+    "main.css": "./static/css/main.019b08fe.chunk.css",
+    "main.js": "./static/js/main.1c57563c.chunk.js",
+    "main.js.map": "./static/js/main.1c57563c.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.1451e3c5.js",
     "runtime-main.js.map": "./static/js/runtime-main.1451e3c5.js.map",
-    "static/js/2.0e7fccfc.chunk.js": "./static/js/2.0e7fccfc.chunk.js",
-    "static/js/2.0e7fccfc.chunk.js.map": "./static/js/2.0e7fccfc.chunk.js.map",
+    "static/js/2.fd810b06.chunk.js": "./static/js/2.fd810b06.chunk.js",
+    "static/js/2.fd810b06.chunk.js.map": "./static/js/2.fd810b06.chunk.js.map",
     "index.html": "./index.html",
-    "precache-manifest.06db78467a3a6b0c471b9e4f24a34e3c.js": "./precache-manifest.06db78467a3a6b0c471b9e4f24a34e3c.js",
+    "precache-manifest.77be4153ade4e30a52bcdb42c86ad743.js": "./precache-manifest.77be4153ade4e30a52bcdb42c86ad743.js",
     "service-worker.js": "./service-worker.js",
-    "static/css/main.f275f783.chunk.css.map": "./static/css/main.f275f783.chunk.css.map",
-    "static/js/2.0e7fccfc.chunk.js.LICENSE.txt": "./static/js/2.0e7fccfc.chunk.js.LICENSE.txt",
+    "static/css/main.019b08fe.chunk.css.map": "./static/css/main.019b08fe.chunk.css.map",
+    "static/js/2.fd810b06.chunk.js.LICENSE.txt": "./static/js/2.fd810b06.chunk.js.LICENSE.txt",
     "static/media/add_cocktail.png": "./static/media/add_cocktail.adeec7fd.png",
     "static/media/admin_page.png": "./static/media/admin_page.1d92d765.png",
     "static/media/chatroom.png": "./static/media/chatroom.104fd480.png",
     "static/media/cocktail_show.png": "./static/media/cocktail_show.2721443d.png",
     "static/media/App.scss": "./static/media/young.03b4fd9e.jpg",
-    "static/media/curious.svg": "./static/media/curious.b43bc4e1.svg",
-    "static/media/fastfood.svg": "./static/media/fastfood.fed9f17d.svg",
-    "static/media/foodindustry.svg": "./static/media/foodindustry.3ab2ea23.svg",
     "static/media/form.png": "./static/media/form.33b2c749.png",
-    "static/media/france.svg": "./static/media/france.91b69fc2.svg",
-    "static/media/group.svg": "./static/media/group.2338e404.svg",
     "static/media/home.png": "./static/media/home.6209af66.png",
     "static/media/home_cocktail.png": "./static/media/home_cocktail.1748d961.png",
     "static/media/meet&greet.png": "./static/media/meet&greet.0b003d11.png",
@@ -35,8 +30,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.1451e3c5.js",
-    "static/js/2.0e7fccfc.chunk.js",
-    "static/css/main.f275f783.chunk.css",
-    "static/js/main.3e36949a.chunk.js"
+    "static/js/2.fd810b06.chunk.js",
+    "static/css/main.019b08fe.chunk.css",
+    "static/js/main.1c57563c.chunk.js"
   ]
 }
