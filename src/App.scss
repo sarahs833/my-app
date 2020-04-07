@@ -16,35 +16,39 @@ body {
   overflow-x:hidden
 }
 
-.walls-bg {
-  background-image:url('./image/walls.jpg');
-  height:100vh;
-  width:100vw;
-  background-size:cover;
-  background-position:center;
-  margin-top:100px
+.about_me {
+  background:black
 }
-.about-text {
-  color:#e25822;
-  font-size:86px;
+.svg-container-bg {
+  background-color:black;
+  padding-top:200px;
+  padding-bottom:100px;
+  padding-left:200px;
+  width:100vw
 }
-.born-text {
-  transform:translate(110px,10px);
-}
-.passion-text {
-  transform:translate(-70px,50px)
-}
-.previous-work {
-  transform:translate(880px,230px)
+.blue {
+  fill:blue
 }
 
-.curious {
-  transform:translate(300px,350px)
+.svg-container-m {
+  display:none
 }
 
-.fastfood {
-  transform:translate(270px,430px)
+.svg-container-s {
+  display:none
 }
+
+.ball {
+position:relative;
+ animation:ball 2s infinite alternate;
+ animation-delay:0.5s
+
+}
+@keyframes ball {
+  0% {transform:translateY(0px)}
+  100% {transform:translateY(-150px)}
+}
+
 
 .bg-black {
   justify-content:space-evenly;
@@ -52,29 +56,87 @@ body {
 
 
 @media only screen and (max-width:768px) {
-  .passion-text {
-    transform:translate(0px,50px)
+  .svg-container-bg {
+    display:none
   }
-  .previous-work {
-    transform:translate(0px,100px)
+  .svg-container-m {
+    display:block;
+    padding-top:100px;
+    padding-bottom:100px;
+    background-color:black;
   }
-  .curious {
-    transform:translate(550px,350px)
+  .svg-container-ms {
+    display:none
+  }
+  .svg-container-s {
+    display:none
   }
 }
-@media only screen and (max-width:600px)  {
-  .about-text {
-    font-size:56px
+
+
+@media only screen and (max-width:414px) {
+  .svg-container-ms {
+    background:black;
+    display:block;
+    padding-top:100px;
+    height:100vh;
+    padding-top:150px
   }
-  .born-text {
-    height:25;
-    transform:translate(0px,10px)
+  .ball {
+    position:relative;
+    animation:ball 2s infinite alternate;
+    animation-delay:0.5s
   }
-  .curious {
-    transform:translate(160px,380px)
+
+  @keyframes ball {
+  0% {transform:translateY(0px)}
+  100% {transform:translateY(-150px)}
   }
-  .fastfood {
-    transform:translate(120px,450px)
+  .pantalon {
+    animation:colory 2s infinite alternate
+  }
+
+  @keyframes colory {
+    0% {fill:none}
+    100% {fill:blue}
+  }
+  .svg-container-bg {
+    display:none;
+  }
+  .svg-container-m {
+    display:none;
+  }
+
+}
+
+@media only screen and (max-width:375px) {
+  .svg-container-ms {
+    display:none
+  }
+  .svg-container-s {
+    background:black;
+    display:block;
+    padding-top: 150px;
+    height: 100vh;
+    padding-bottom: 100px;
+  }
+  .ball {
+    position:relative;
+    animation:ball 2s infinite alternate;
+    animation-delay:0.5s
+  }
+  .pantalon {
+    animation:colory 2s infinite alternate
+  }
+
+  @keyframes colory {
+    0% {fill:none}
+    100% {fill:blue}
+  }
+
+  @keyframes ball {
+  0% {transform:translateY(0px)}
+  100% {transform:translateY(-150px)}
   }
 }
 
@@ -1063,12 +1125,7 @@ color:#FF8F71
   .navlink > a {
     margin:5px
   }
-  .curious {
-    transform:translate(100px,180px)
-  }
-  .fastfood {
-    transform: translate(10px, 280px);
-  }
+
   .pink-underline {
     font-size:20px
   }
