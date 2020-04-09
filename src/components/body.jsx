@@ -21,7 +21,7 @@ class Body extends Component {
         <div className="right">
           <div className="selfgrid">
             <h1 className="whitesmall">Spare Leash</h1>
-            <h2 className='whitesmall'>YOUR PET SITTING SOLUTION</h2>
+            <h2 className='whitesmall sm-text'>YOUR PET SITTING SOLUTION</h2>
             <Link className="small-botton" to="/project/SpareLeash"> view more </Link>
           </div>
           <div className="selfgrid">
