@@ -1,9 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { Provider } from 'react-redux';
-import { createStore, combineReducers, applyMiddleware } from 'redux';
-import reduxPromise from 'redux-promise';
-import logger from 'redux-logger';
 import { HashRouter, Route, Switch } from 'react-router-dom';
 import { createHistory as history } from 'history';
 

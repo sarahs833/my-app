@@ -238,6 +238,10 @@ height:100vh;
   flex-direction: column;
 }
 
+.selfgrid:first-child {
+  margin-top:50px
+}
+
 .selfgrid:nth-child(2) {
    background:
     linear-gradient(
